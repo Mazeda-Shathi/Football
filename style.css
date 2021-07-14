@@ -184,6 +184,7 @@ h4 {
     text-align: center;
      margin-bottom: 140px;
 }
+
 .list{
     font-size: 1.5em;
     text-align: center;
@@ -208,6 +209,12 @@ margin-top: 131px;
 margin-bottom: 71px;
 
 }
+ .icon a{
+     color:black;
+     height: 32px;
+     width: 32px;
+      margin-right: 14px;
+ }
 .copyright{
     font-size: 18px;}
 .logo .logo-football img{
