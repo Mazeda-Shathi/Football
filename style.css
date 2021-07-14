@@ -17,14 +17,15 @@ body{
      align-items: center;
      height: 670px;
      width:100%;
-     justify-content: center;
+     justify-content: space-between;
 
  }
  .headline{
      display: flex;
      flex-direction: column;
      justify-content: center;
-     margin:0 102px 170px 156px;
+     margin-left: 140px;
+     /* margin:0 102px 170px 156px; */
     
  }
 .head h1{
@@ -42,10 +43,13 @@ height: 230px;
     text-decoration: none;
     font-weight: 200;
 }
+.banner-photo{
+    width:50%;
+}
 .banner-photo img{
     width: 556px;
     height: 438px;
-    margin-right: 140px;
+    /* margin-right: 140px; */
 
 }
 /* .banner-photo:hover img{
@@ -56,8 +60,8 @@ height: 230px;
            Player-Details
 -----------------------------------------------*/
 .player{
-    width: 330px;
-    height: 470px;
+    width: 330px; 
+    height: 474px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
 }
@@ -72,10 +76,13 @@ h2{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width: 100%;
+    width: 1050px;
     margin-Top:70px;
     margin-bottom: 182px;
-    margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 25px;
+    /* margin-left: 120px; */
 }
 p{
     font-size: 16px;
@@ -85,7 +92,7 @@ p{
 -------------------------------------------- */
 .watch-match img{
     width: 567px;
-     height: 427px;
+     height: 429px;
      margin-left: 72px;
 }
 .highlights{
@@ -94,7 +101,7 @@ p{
     align-items: center;
     justify-content: center;
     margin-bottom: 182px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
 }
   
 .Match-highlights{
