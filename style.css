@@ -225,11 +225,71 @@ height: 113px;
               Media Query
 ------------------------------------------- */
 @media only screen and (max-width: 688px){
-   .container{
+
+    .container{
        width: 100%;
-   }
+   } 
    .qe{
        display: none;
    }
-
+   .menu, .login{
+    display: none;
+}
+   .banner{
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+    margin:0;
+   }
+   .headline{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin:0;
    
+   
+}
+.head h1{
+   font-size: 20px;
+   width:100px;
+   height: 100px;
+   margin: 10;
+}
+.banner-photo img{
+    width: 350px;
+    height: 300px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0;
+}
+.Match-highlights{
+    font-size: 20px;
+    margin: 0;
+}
+.highlights-news{
+    box-sizing: border-box;
+    width: 100px;
+    margin: 0px;
+}
+.watch-match img{
+    width: 300px;
+     height: 300px;
+     margin:0px;
+}
+.logo{
+    width: 200px;
+height: 200px;
+margin: 0;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+.trofy-fixture {
+    width: 200px;
+    margin: 0;
+}
