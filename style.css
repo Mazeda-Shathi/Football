@@ -1,7 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /*------------------------------ 
         BANNER
 ------------------------------ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -64,7 +65,6 @@ body{
      flex-direction: column;
      justify-content: center;
      margin-left: 140px;
-     /* margin:0 102px 170px 156px; */
     
  }
 .head h1{
@@ -72,7 +72,6 @@ body{
     color: #FFFFFF;
     width: 485px;
 height: 230px;
-
 }
 .watch{
     background: #E02C6D;
@@ -88,13 +87,12 @@ height: 230px;
 .banner-photo img{
     width: 556px;
     height: 438px;
-    /* margin-right: 140px; */
 
 }
-/* .banner-photo:hover img{
+.banner-photo img:hover{
     transform: matrix(-1, 0, 0, 1, 0, 0);
     transition: transform 2s ease-in-out;
-} */
+} 
 /* -------------------------------------------
            Player-Details
 -----------------------------------------------*/
@@ -121,10 +119,10 @@ h2{
     align-items: center;
     justify-content: center;
     grid-gap: 25px;
-    /* margin-left: 120px; */
 }
 p{
     font-size: 16px;
+    font-family: 'Poppins';
 }
 /* --------------------------------------------
        Highlights :Match
@@ -140,7 +138,6 @@ p{
     align-items: center;
     justify-content: center;
     margin-bottom: 182px;
-    /* margin-left: 130px; */
 }
   
 .Match-highlights{
@@ -179,6 +176,22 @@ h4 {
     padding-left: 25px;
     padding-bottom: 10px;
 }
+/* ------------------------------------
+--------------List of finals---------- */
+.previous-copa{
+    height: 30px;
+    text-align: center;
+     margin-bottom: 140px;
+}
+.list{
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius:10px;
+    background-image: linear-gradient(darkblue,blue);
+}
 /* -------------------------------------------------
                   FOOTER
 -------------------------------------------------- */
@@ -193,7 +206,8 @@ justify-content: center;
 margin-top: 131px;
 
 }
-
+.copyright{
+    font-size: 18px;}
 .logo .logo-football img{
     width: 100%;
 height: 113px;
