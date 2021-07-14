@@ -1,0 +1,126 @@
+/*------------------------------ 
+        BANNER
+------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .banner{
+     background-color:blue ;
+     display: flex;
+     align-items: center;
+     height: 670px;
+     width:100%;
+     justify-content: center;
+
+ }
+ .headline{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin:0 102px 170px 156px;
+    
+ }
+.head h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 485px;
+height: 230px;
+
+}
+.watch{
+    background: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    width: 145px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.banner-photo img{
+    width: 556px;
+    height: 438px;
+    margin-right: 140px;
+
+}
+/* .banner-photo:hover img{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: transform 2s ease-in-out;
+} */
+/* -------------------------------------------
+           Player-Details
+-----------------------------------------------*/
+.player{
+    width: 330px;
+    height: 470px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.player-photo img{
+    height: 255px;
+    width:100%;
+    background-color: white;
+}
+h2{
+    font-size: 28px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    margin-Top:70px;
+    margin-bottom: 182px;
+    margin-left: 120px;
+}
+p{
+    font-size: 16px;
+}
+/* --------------------------------------------
+       Highlights :Match
+-------------------------------------------- */
+.watch-match img{
+    width: 567px;
+     height: 427px;
+     margin-left: 72px;
+}
+.highlights{
+    width: 1000%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 182px;
+    margin-left: 130px;
+}
+  
+.Match-highlights{
+    font-size: 48px;
+}
+.highlights-news{
+    box-sizing: border-box;
+    width: 469px;
+height: 309px;
+}
+/* -------------------------------------------------
+                   LOGO
+-------------------------------------------------- */
+.logo{
+    width: 483.87px;
+height: 213px;
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items:center ;
+justify-content: center;
+margin-top: 131px;
+
+}
+
+.logo .logo-football img{
+    width: 100%;
+height: 113px;
+}
